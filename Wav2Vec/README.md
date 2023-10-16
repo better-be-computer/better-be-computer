@@ -13,10 +13,10 @@
     2. Run the script.
 3. Score the data using the script, *score_SSL_DF_real-world.py*.
      1. Change the arguments:
-        * `database_path`: the full path location of the dataset folder that you want to score on.
-        * `protocol_path`: the full path of the `pkl` file for the dataset.
-        * `pretrained_path`: the full path of `epoch_99.pth` for the pretrained model from Step 2.
-        * `scores_file`: where to place the output scores file.
+        * `--database_path`: the full path location of the dataset folder that you want to score on.
+        * `--protocol_path`: the full path of the `pkl` file for the dataset.
+        * `--pretrained_path`: the full path of `epoch_99.pth` for the pretrained model from Step 2.
+        * `--scores_file`: where to place the output scores file.
      2. Run the script, which should output a `.score` file in your specified directory.
 4. Run the `.score` file through the script, *convert_scores_to_probs.py*:
    1. This should produce a `.txt` file in the same directory as the `.score` file.
