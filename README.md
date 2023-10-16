@@ -12,5 +12,6 @@ git clone https://github.com/fakemeout-paper/fake-me-out.git
 ```
 pip install -r requirements.txt
 ```
+3. Follow the *README* instructions within each model folder.
 
 ## Citation:
