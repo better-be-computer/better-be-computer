@@ -14,3 +14,5 @@
 3. Score the data using the script, *score_SSL_DF_real-world.py*.
      1. Change the arguments:
      2. Run the script, which should output a `.score` file in your specified directory.
+4. Run the `.score` file through the script, *convert_scores_to_probs.py*:
+   1. This should produce a `.txt` file in the same directory as the `.score` file.
