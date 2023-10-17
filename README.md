@@ -13,5 +13,8 @@ git clone https://github.com/fakemeout-paper/fake-me-out.git
 pip install -r requirements.txt
 ```
 3. Follow the *README* instructions within each model folder.
+4.  Run the `.score` file for each model through the Python script, *convert_scores_to_probs.py*:
+     *  Change `scores = ''` to the full path of where the `.score` produced from Step 3.
+     *  This should output a similarily named file in the same directory as the `.score` file, but with the `.txt` extension.
 
 ## Citation:
