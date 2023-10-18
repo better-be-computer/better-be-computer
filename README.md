@@ -6,7 +6,7 @@ We provide the datasets required to reproduce our deepfake detectors.  Our full,
 ## Steps to Reproduce:
 1. Download the repository, such as: 
 ```
-git clone https://github.com/fakemeout-paper/fake-me-out.git
+git clone https://github.com/fakemeout-paper/fake-me-out.git](https://github.com/better-be-computer/better-be-computer.git
 ```
 2. Install the requirements:
 ```
